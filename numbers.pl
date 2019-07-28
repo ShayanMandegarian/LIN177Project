@@ -44,4 +44,4 @@ number([neh], [hundreds]). % 900
 
 number([hezar], [thousands]). % 1000
 
-connector([o]).
+connector(o).
