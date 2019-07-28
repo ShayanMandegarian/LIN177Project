@@ -1,0 +1,26 @@
+%numbers.pl
+% This file contains the Persian spoken numbers and
+% their identifiers
+
+number([sefr], zero).
+
+number([yek], [ones]). % 1
+number([do], [ones]). % 2
+number([se], [ones]). % 3
+number([chahar], [ones, teen]). %4 / 14
+number([panj], [ones]). %5
+number([shesh], [ones]). %6
+number([haft], [ones]). %7
+number([hasht], [ones]). %8
+number([noh], [ones]). %9
+
+number([dah], [tens, teenroot]). %10
+
+number([yaz], [teen]). % 11
+number([davaz], [teen]). % 12
+number([siz], [teen]). % 13
+number([poonz], [teen]). % 15
+number([shoonz], [teen]). % 16
+number([hif], [teen]). % 17
+number([hij], [teen]). % 18
+number([nooz], [teen]). % 19
