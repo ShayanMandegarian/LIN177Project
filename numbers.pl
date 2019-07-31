@@ -1,6 +1,6 @@
 %numbers.pl
 % This file contains the Persian spoken numbers and
-% their identifiers. 0 - 1999 can be generated.
+% their identifiers. 0 - 1000 can be generated.
 
 number([sefr], [zero]). % 0
 
